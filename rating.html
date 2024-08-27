@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive rating</title>
+
+    
+    <!-- css style -->
+     <link rel="stylesheet" href="rating.css">
+</head>
+<body id="pg--container">
+
+
+    <!-- rate page -->
+    <section class="first--container cg--container">
+        <img src="images/icon-star.svg" alt="star" id="rating--logo">
+        <div id="rating--desc">
+            <article id="rating--txt">
+                <h3 id="rating--title" class="title--color">How did we do?</h3>
+                <h5 id="rating--body" class="body--color"> Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</h5>
+            </article>
+            <section id="rating__btn">
+                <div class="rate rt--cl" id="btn__one">1</div>
+                <div class="rate rt--cl" id="btn__two">2</div>
+                <div class="rate rt--cl" id="btn__three">3</div>
+                <div class="rate rt--cl" id="btn__four">4</div>
+                <div class="rate rt--cl" id="btn__five">5</div>
+            </section>
+            <section id="submit__btn">
+                <h4 id="submit__btntxt">SUBMIT</h4>
+            </section>
+            <!-- <button id="submit__btn">SUBMIT</button> -->
+        </div>
+    </section>
+
+
+    <!-- result page -->
+        <section class="second--container cg--container either__view">
+            <div id="thk--container">
+                <div><img src="images/illustration-thank-you.svg" alt="Thank you" id="thk--img"></div>
+                <div id="rating--result">
+                    <h5 id="result--txt"></h5>
+                </div>
+                <article id="thk--txt">
+                    <h3 class="title--color" id="thk--title">Thank you!</h3>
+                    <h5 class="body--color" id="thk--body">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</h5>
+                </article>
+            </div>
+        </section>
+    
+
+    <!-- javascipt -->
+    <script src="rating.js"></script>
+</body>
+</html>
